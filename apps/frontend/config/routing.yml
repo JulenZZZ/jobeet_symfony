@@ -10,6 +10,10 @@ inicio:
   url:   /inicio
   param: { module: inicio, action: index }
 
+holamundo:
+  url:   /holamundo
+  param: { module: inicio, action: holaMundo }
+
 # generic rules
 # please, remove them by adding more specific rules
 default_index:

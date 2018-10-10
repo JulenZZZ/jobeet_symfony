@@ -6,7 +6,7 @@
     <title>Jobeet - Your best job board</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <?php include_javascripts() ?>
-    <?php include_stylesheets() ?>
+    <?php include_stylesheets('main.css') ?>
 </head>
 <body>
 <div id="container">

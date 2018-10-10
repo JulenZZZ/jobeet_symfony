@@ -203,3 +203,945 @@ Oct 09 16:27:32 symfony [info] {sfWebDebugLogger} Factories 43.66 ms (1)
 Oct 09 16:27:32 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
 Oct 09 16:27:32 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 28.01 ms (1)
 Oct 09 16:27:32 symfony [info] {sfWebResponse} Send content (88334 o)
+Oct 10 13:15:22 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 13:15:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 13:15:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 13:15:23 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 13:15:23 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 13:15:23 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:15:23 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:15:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 13:15:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 13:15:24 symfony [info] {sfWebDebugLogger} Configuration 21.44 ms (9)
+Oct 10 13:15:24 symfony [info] {sfWebDebugLogger} Factories 1394.57 ms (1)
+Oct 10 13:15:24 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 13:15:24 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 250.89 ms (1)
+Oct 10 13:15:24 symfony [info] {sfWebResponse} Send content (87546 o)
+Oct 10 13:21:31 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 13:21:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 13:21:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 13:21:31 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 13:21:31 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 13:21:31 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:21:31 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:21:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 13:21:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 13:21:31 symfony [info] {sfWebDebugLogger} Configuration 18.48 ms (9)
+Oct 10 13:21:31 symfony [info] {sfWebDebugLogger} Factories 44.17 ms (1)
+Oct 10 13:21:31 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 13:21:31 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 21.84 ms (1)
+Oct 10 13:21:31 symfony [info] {sfWebResponse} Send content (88166 o)
+Oct 10 13:30:15 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 13:30:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 13:30:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 13:30:15 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 13:30:15 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 13:30:15 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:30:15 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:30:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 13:30:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 13:30:15 symfony [info] {sfWebDebugLogger} Configuration 15.61 ms (9)
+Oct 10 13:30:15 symfony [info] {sfWebDebugLogger} Factories 43.07 ms (1)
+Oct 10 13:30:15 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 13:30:15 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 21.89 ms (1)
+Oct 10 13:30:15 symfony [info] {sfWebResponse} Send content (88164 o)
+Oct 10 13:35:50 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 13:35:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 13:35:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 13:35:50 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 13:35:50 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 13:35:50 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:35:50 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:35:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 13:35:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 13:35:50 symfony [info] {sfWebDebugLogger} Configuration 16.00 ms (9)
+Oct 10 13:35:50 symfony [info] {sfWebDebugLogger} Factories 46.72 ms (1)
+Oct 10 13:35:50 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 13:35:50 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 24.05 ms (1)
+Oct 10 13:35:50 symfony [info] {sfWebResponse} Send content (88064 o)
+Oct 10 13:38:01 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 13:38:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 13:38:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 13:38:01 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 13:38:01 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 13:38:01 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:38:01 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:38:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 13:38:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 13:38:01 symfony [info] {sfWebDebugLogger} Configuration 14.83 ms (9)
+Oct 10 13:38:01 symfony [info] {sfWebDebugLogger} Factories 45.49 ms (1)
+Oct 10 13:38:01 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.38 ms (1)
+Oct 10 13:38:01 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 24.00 ms (1)
+Oct 10 13:38:01 symfony [info] {sfWebResponse} Send content (88156 o)
+Oct 10 13:38:14 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 13:38:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 13:38:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 13:38:14 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 13:38:14 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 13:38:14 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:38:14 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:38:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 13:38:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 13:38:14 symfony [info] {sfWebDebugLogger} Configuration 14.94 ms (9)
+Oct 10 13:38:14 symfony [info] {sfWebDebugLogger} Factories 43.54 ms (1)
+Oct 10 13:38:14 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.40 ms (1)
+Oct 10 13:38:14 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 23.98 ms (1)
+Oct 10 13:38:14 symfony [info] {sfWebResponse} Send content (88161 o)
+Oct 10 13:39:22 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 13:39:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 13:39:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 13:39:22 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 13:39:22 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 13:39:22 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:39:22 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 13:39:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 13:39:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 13:39:22 symfony [info] {sfWebDebugLogger} Configuration 15.14 ms (9)
+Oct 10 13:39:22 symfony [info] {sfWebDebugLogger} Factories 43.80 ms (1)
+Oct 10 13:39:22 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 13:39:22 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 24.27 ms (1)
+Oct 10 13:39:22 symfony [info] {sfWebResponse} Send content (88161 o)
+Oct 10 14:08:29 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'actions',)
+Oct 10 14:08:29 symfony [info] {sfFrontWebController} Action "inicio/actions" does not exist
+Oct 10 14:08:30 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 14:08:30 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 14:08:30 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:08:30 symfony [err] {sfError404Exception} Action "inicio/actions" does not exist.
+Oct 10 14:08:30 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:08:30 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:08:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 14:08:30 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:08:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:08:30 symfony [info] {sfWebDebugLogger} Configuration 403.62 ms (6)
+Oct 10 14:08:30 symfony [info] {sfWebDebugLogger} Factories 507.49 ms (1)
+Oct 10 14:09:19 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'actions/actions',)
+Oct 10 14:09:19 symfony [info] {sfFrontWebController} Action "inicio/actionsactions" does not exist
+Oct 10 14:09:19 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 14:09:19 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 14:09:19 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:19 symfony [err] {sfError404Exception} Action "inicio/actionsactions" does not exist.
+Oct 10 14:09:19 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:19 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 14:09:19 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:09:19 symfony [info] {sfWebDebugLogger} Configuration 105.46 ms (6)
+Oct 10 14:09:19 symfony [info] {sfWebDebugLogger} Factories 134.65 ms (1)
+Oct 10 14:09:38 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'actions\\actions',)
+Oct 10 14:09:38 symfony [info] {sfFrontWebController} Action "inicio/actionsactions" does not exist
+Oct 10 14:09:38 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 14:09:38 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 14:09:38 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:38 symfony [err] {sfError404Exception} Action "inicio/actionsactions" does not exist.
+Oct 10 14:09:38 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:38 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 14:09:38 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:09:38 symfony [info] {sfWebDebugLogger} Configuration 103.16 ms (6)
+Oct 10 14:09:38 symfony [info] {sfWebDebugLogger} Factories 131.98 ms (1)
+Oct 10 14:09:59 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'actions\\actions.class.php',)
+Oct 10 14:09:59 symfony [info] {sfFrontWebController} Action "inicio/actionsactionsclassphp" does not exist
+Oct 10 14:09:59 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 14:09:59 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 14:09:59 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:59 symfony [err] {sfError404Exception} Action "inicio/actionsactionsclassphp" does not exist.
+Oct 10 14:09:59 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:59 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 14:09:59 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:09:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:09:59 symfony [info] {sfWebDebugLogger} Configuration 106.67 ms (6)
+Oct 10 14:09:59 symfony [info] {sfWebDebugLogger} Factories 135.66 ms (1)
+Oct 10 14:11:52 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'actions',)
+Oct 10 14:11:52 symfony [info] {sfFrontWebController} Action "inicio/actions" does not exist
+Oct 10 14:11:52 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 14:11:52 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 14:11:52 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:11:52 symfony [err] {sfError404Exception} Action "inicio/actions" does not exist.
+Oct 10 14:11:52 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:11:53 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:11:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 14:11:53 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:11:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:11:53 symfony [info] {sfWebDebugLogger} Configuration 103.59 ms (6)
+Oct 10 14:11:53 symfony [info] {sfWebDebugLogger} Factories 133.23 ms (1)
+Oct 10 14:12:21 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio/actions',  'action' => 'actions.class.php',)
+Oct 10 14:12:21 symfony [info] {sfFrontWebController} Action "inicioactions/actionsclassphp" does not exist
+Oct 10 14:12:21 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 14:12:21 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 14:12:21 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:12:21 symfony [err] {sfError404Exception} Action "inicioactions/actionsclassphp" does not exist.
+Oct 10 14:12:21 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:12:21 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:12:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 14:12:21 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:12:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:12:21 symfony [info] {sfWebDebugLogger} Configuration 103.85 ms (6)
+Oct 10 14:12:21 symfony [info] {sfWebDebugLogger} Factories 132.37 ms (1)
+Oct 10 14:12:42 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio\\actions',  'action' => 'actions.class.php',)
+Oct 10 14:12:42 symfony [info] {sfFrontWebController} Action "inicioactions/actionsclassphp" does not exist
+Oct 10 14:12:42 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 14:12:42 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 14:12:42 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:12:42 symfony [err] {sfError404Exception} Action "inicioactions/actionsclassphp" does not exist.
+Oct 10 14:12:42 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:12:42 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:12:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 14:12:42 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:12:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:12:42 symfony [info] {sfWebDebugLogger} Configuration 134.55 ms (6)
+Oct 10 14:12:42 symfony [info] {sfWebDebugLogger} Factories 163.63 ms (1)
+Oct 10 14:12:59 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio\\actions',  'action' => 'actions.class.php',)
+Oct 10 14:12:59 symfony [info] {sfFrontWebController} Action "inicioactions/actionsclassphp" does not exist
+Oct 10 14:12:59 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 14:12:59 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 14:12:59 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:12:59 symfony [err] {sfError404Exception} Action "inicioactions/actionsclassphp" does not exist.
+Oct 10 14:12:59 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:13:00 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:13:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 14:13:00 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:13:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:13:00 symfony [info] {sfWebDebugLogger} Configuration 1866.03 ms (5)
+Oct 10 14:13:00 symfony [info] {sfWebDebugLogger} Factories 275.03 ms (1)
+Oct 10 14:13:51 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:13:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:13:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:13:51 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:13:51 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\apps\frontend\modules\inicio\actions\actions.class.php on line 20 (Undefined property: sfWebRequest::$request)
+Oct 10 14:14:58 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:14:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:14:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:14:58 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:14:58 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:14:58 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:14:58 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:14:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:14:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:14:58 symfony [info] {sfWebDebugLogger} Configuration 15.67 ms (9)
+Oct 10 14:14:58 symfony [info] {sfWebDebugLogger} Factories 34.79 ms (1)
+Oct 10 14:14:58 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.35 ms (1)
+Oct 10 14:14:58 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 23.86 ms (1)
+Oct 10 14:14:58 symfony [info] {sfWebResponse} Send content (88471 o)
+Oct 10 14:25:22 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:25:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:25:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:25:22 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:25:22 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:25:22 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:25:22 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:25:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:25:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:25:22 symfony [info] {sfWebDebugLogger} Configuration 117.10 ms (10)
+Oct 10 14:25:22 symfony [info] {sfWebDebugLogger} Factories 138.96 ms (1)
+Oct 10 14:25:22 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.32 ms (1)
+Oct 10 14:25:22 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 26.37 ms (1)
+Oct 10 14:25:22 symfony [info] {sfWebResponse} Send content (88480 o)
+Oct 10 14:27:01 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:27:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:27:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:27:01 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:27:01 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:27:01 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:27:01 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:27:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:27:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:27:01 symfony [info] {sfWebDebugLogger} Configuration 15.77 ms (9)
+Oct 10 14:27:01 symfony [info] {sfWebDebugLogger} Factories 46.90 ms (1)
+Oct 10 14:27:01 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.35 ms (1)
+Oct 10 14:27:01 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 23.25 ms (1)
+Oct 10 14:27:01 symfony [info] {sfWebResponse} Send content (88476 o)
+Oct 10 14:27:25 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:27:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:27:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:27:25 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:27:25 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:27:25 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:27:25 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:27:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:27:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:27:25 symfony [info] {sfWebDebugLogger} Configuration 15.30 ms (9)
+Oct 10 14:27:25 symfony [info] {sfWebDebugLogger} Factories 44.39 ms (1)
+Oct 10 14:27:25 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 14:27:25 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 20.87 ms (1)
+Oct 10 14:27:25 symfony [info] {sfWebResponse} Send content (88476 o)
+Oct 10 14:27:32 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:27:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:27:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:27:32 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:27:32 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:27:32 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:27:32 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:27:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:27:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:27:32 symfony [info] {sfWebDebugLogger} Configuration 14.66 ms (9)
+Oct 10 14:27:32 symfony [info] {sfWebDebugLogger} Factories 41.94 ms (1)
+Oct 10 14:27:32 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.35 ms (1)
+Oct 10 14:27:32 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 19.97 ms (1)
+Oct 10 14:27:32 symfony [info] {sfWebResponse} Send content (89044 o)
+Oct 10 14:28:30 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:28:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:28:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:28:30 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:28:30 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:28:30 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:28:30 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:28:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:28:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:28:30 symfony [info] {sfWebDebugLogger} Configuration 15.14 ms (9)
+Oct 10 14:28:30 symfony [info] {sfWebDebugLogger} Factories 45.06 ms (1)
+Oct 10 14:28:30 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.36 ms (1)
+Oct 10 14:28:30 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 23.29 ms (1)
+Oct 10 14:28:30 symfony [info] {sfWebResponse} Send content (88745 o)
+Oct 10 14:28:35 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:28:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:28:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:28:35 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:28:35 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:28:35 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:28:35 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:28:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:28:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:28:35 symfony [info] {sfWebDebugLogger} Configuration 15.34 ms (9)
+Oct 10 14:28:35 symfony [info] {sfWebDebugLogger} Factories 45.19 ms (1)
+Oct 10 14:28:35 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.36 ms (1)
+Oct 10 14:28:35 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 21.81 ms (1)
+Oct 10 14:28:35 symfony [info] {sfWebResponse} Send content (89394 o)
+Oct 10 14:30:06 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:30:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:30:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:30:06 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:30:06 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 14:30:06 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 14:30:06 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:30:06 symfony [err] {sfException} Call to undefined method sfWebRequest::getParamenter.
+Oct 10 14:30:06 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:30:06 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:30:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Oct 10 14:30:06 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:30:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:30:06 symfony [info] {sfWebDebugLogger} Configuration 14.87 ms (8)
+Oct 10 14:30:06 symfony [info] {sfWebDebugLogger} Factories 39.75 ms (1)
+Oct 10 14:30:06 symfony [info] {sfWebDebugLogger} Action "inicio/index" 101.76 ms (1)
+Oct 10 14:30:23 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:30:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:30:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:30:23 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:30:23 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:30:23 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\apps\frontend\modules\inicio\templates\indexSuccess.php on line 17 (Undefined variable: username)
+Oct 10 14:30:23 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\apps\frontend\modules\inicio\templates\indexSuccess.php on line 17 (Undefined variable: lastname)
+Oct 10 14:30:23 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:30:23 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:30:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:30:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:30:23 symfony [info] {sfWebDebugLogger} Configuration 19.12 ms (9)
+Oct 10 14:30:23 symfony [info] {sfWebDebugLogger} Factories 49.28 ms (1)
+Oct 10 14:30:23 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 14:30:23 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 24.09 ms (1)
+Oct 10 14:30:23 symfony [info] {sfWebResponse} Send content (99071 o)
+Oct 10 14:30:37 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:30:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:30:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:30:37 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:30:37 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:30:37 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:30:37 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:30:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:30:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:30:37 symfony [info] {sfWebDebugLogger} Configuration 19.13 ms (9)
+Oct 10 14:30:37 symfony [info] {sfWebDebugLogger} Factories 43.24 ms (1)
+Oct 10 14:30:37 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 14:30:37 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 21.68 ms (1)
+Oct 10 14:30:37 symfony [info] {sfWebResponse} Send content (88484 o)
+Oct 10 14:30:40 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:30:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:30:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:30:40 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:30:40 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:30:40 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:30:40 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:30:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:30:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:30:40 symfony [info] {sfWebDebugLogger} Configuration 14.70 ms (9)
+Oct 10 14:30:40 symfony [info] {sfWebDebugLogger} Factories 42.86 ms (1)
+Oct 10 14:30:40 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 14:30:40 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 21.99 ms (1)
+Oct 10 14:30:41 symfony [info] {sfWebResponse} Send content (89042 o)
+Oct 10 14:30:42 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:30:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:30:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:30:42 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:30:42 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:30:42 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:30:42 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:30:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:30:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:30:42 symfony [info] {sfWebDebugLogger} Configuration 17.59 ms (9)
+Oct 10 14:30:42 symfony [info] {sfWebDebugLogger} Factories 43.29 ms (1)
+Oct 10 14:30:42 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 14:30:42 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 27.63 ms (1)
+Oct 10 14:30:42 symfony [info] {sfWebResponse} Send content (89050 o)
+Oct 10 14:31:11 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:31:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:31:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:31:11 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:31:11 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:31:11 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:31:11 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:31:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:31:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:31:11 symfony [info] {sfWebDebugLogger} Configuration 14.07 ms (9)
+Oct 10 14:31:11 symfony [info] {sfWebDebugLogger} Factories 44.44 ms (1)
+Oct 10 14:31:11 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 14:31:11 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 24.54 ms (1)
+Oct 10 14:31:11 symfony [info] {sfWebResponse} Send content (89046 o)
+Oct 10 14:31:12 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:31:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:31:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:31:12 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:31:12 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:31:12 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:31:12 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:31:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:31:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:31:12 symfony [info] {sfWebDebugLogger} Configuration 17.52 ms (9)
+Oct 10 14:31:12 symfony [info] {sfWebDebugLogger} Factories 125.14 ms (1)
+Oct 10 14:31:12 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 14:31:12 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 29.68 ms (1)
+Oct 10 14:31:12 symfony [info] {sfWebResponse} Send content (89048 o)
+Oct 10 14:31:36 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:31:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:31:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:31:36 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:31:36 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:31:36 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:31:36 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:31:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:31:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:31:36 symfony [info] {sfWebDebugLogger} Configuration 16.18 ms (9)
+Oct 10 14:31:36 symfony [info] {sfWebDebugLogger} Factories 46.56 ms (1)
+Oct 10 14:31:36 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.35 ms (1)
+Oct 10 14:31:36 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 22.07 ms (1)
+Oct 10 14:31:36 symfony [info] {sfWebResponse} Send content (89062 o)
+Oct 10 14:31:38 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:31:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:31:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:31:38 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:31:38 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\apps\frontend\modules\inicio\actions\actions.class.php on line 24 (Undefined variable: username)
+Oct 10 14:31:38 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\apps\frontend\modules\inicio\actions\actions.class.php on line 24 (Undefined variable: lastname)
+Oct 10 14:31:49 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:31:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:31:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:31:49 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:31:49 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\apps\frontend\modules\inicio\actions\actions.class.php on line 24 (Undefined variable: username)
+Oct 10 14:31:49 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\apps\frontend\modules\inicio\actions\actions.class.php on line 24 (Undefined variable: lastname)
+Oct 10 14:32:35 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:32:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:32:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:32:35 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:32:35 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:32:35 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:32:35 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:32:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:32:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:32:35 symfony [info] {sfWebDebugLogger} Configuration 13.35 ms (9)
+Oct 10 14:32:35 symfony [info] {sfWebDebugLogger} Factories 41.63 ms (1)
+Oct 10 14:32:35 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 14:32:35 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 23.54 ms (1)
+Oct 10 14:32:35 symfony [info] {sfWebResponse} Send content (88428 o)
+Oct 10 14:32:42 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:32:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:32:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:32:43 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:35:50 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'inicio',  'action' => 'holaMundo',)
+Oct 10 14:35:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:35:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:35:50 symfony [info] {inicioActions} Call "inicioActions->executeHolaMundo()"
+Oct 10 14:36:55 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'inicio',  'action' => 'holaMundo',)
+Oct 10 14:36:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:36:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:36:55 symfony [info] {inicioActions} Call "inicioActions->executeHolaMundo()"
+Oct 10 14:36:55 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/holaMundoSuccess.php"
+Oct 10 14:36:55 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:36:55 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:36:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:36:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:36:55 symfony [info] {sfWebDebugLogger} Configuration 60.50 ms (10)
+Oct 10 14:36:55 symfony [info] {sfWebDebugLogger} Factories 44.08 ms (1)
+Oct 10 14:36:55 symfony [info] {sfWebDebugLogger} Action "inicio/holaMundo" 0.37 ms (1)
+Oct 10 14:36:55 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/holaMundo" 69.20 ms (1)
+Oct 10 14:36:55 symfony [info] {sfWebResponse} Send content (45180 o)
+Oct 10 14:41:13 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:41:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:41:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:41:13 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:41:13 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:41:13 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:41:13 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:41:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:41:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:41:13 symfony [info] {sfWebDebugLogger} Configuration 17.20 ms (9)
+Oct 10 14:41:13 symfony [info] {sfWebDebugLogger} Factories 50.35 ms (1)
+Oct 10 14:41:13 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 14:41:13 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 20.52 ms (1)
+Oct 10 14:41:13 symfony [info] {sfWebResponse} Send content (88430 o)
+Oct 10 14:41:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /homamundo with parameters array (  'module' => 'homamundo',  'action' => 'index',)
+Oct 10 14:41:22 symfony [info] {sfFrontWebController} Action "homamundo/index" does not exist
+Oct 10 14:41:22 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 14:41:22 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 14:41:22 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:41:22 symfony [err] {sfError404Exception} Action "homamundo/index" does not exist.
+Oct 10 14:41:22 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:41:23 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:41:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 14:41:23 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 14:41:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:41:23 symfony [info] {sfWebDebugLogger} Configuration 9.20 ms (5)
+Oct 10 14:41:23 symfony [info] {sfWebDebugLogger} Factories 41.38 ms (1)
+Oct 10 14:41:29 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'inicio',  'action' => 'holaMundo',)
+Oct 10 14:41:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:41:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:41:29 symfony [info] {inicioActions} Call "inicioActions->executeHolaMundo()"
+Oct 10 14:41:29 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/holaMundoSuccess.php"
+Oct 10 14:41:29 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:41:29 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:41:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:41:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:41:29 symfony [info] {sfWebDebugLogger} Configuration 16.76 ms (9)
+Oct 10 14:41:29 symfony [info] {sfWebDebugLogger} Factories 40.56 ms (1)
+Oct 10 14:41:29 symfony [info] {sfWebDebugLogger} Action "inicio/holaMundo" 0.33 ms (1)
+Oct 10 14:41:29 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/holaMundo" 22.53 ms (1)
+Oct 10 14:41:29 symfony [info] {sfWebResponse} Send content (45147 o)
+Oct 10 14:42:52 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:42:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:42:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:42:52 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:42:52 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:42:52 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:42:52 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:42:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:42:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:42:52 symfony [info] {sfWebDebugLogger} Configuration 16.67 ms (9)
+Oct 10 14:42:52 symfony [info] {sfWebDebugLogger} Factories 46.67 ms (1)
+Oct 10 14:42:52 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 14:42:52 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 20.20 ms (1)
+Oct 10 14:42:52 symfony [info] {sfWebResponse} Send content (88430 o)
+Oct 10 14:42:55 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:42:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:42:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:42:55 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:43:06 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:43:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:43:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:43:06 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:43:06 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:43:06 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:43:06 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:43:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:43:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:43:06 symfony [info] {sfWebDebugLogger} Configuration 13.47 ms (9)
+Oct 10 14:43:06 symfony [info] {sfWebDebugLogger} Factories 44.22 ms (1)
+Oct 10 14:43:06 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 14:43:06 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 21.86 ms (1)
+Oct 10 14:43:06 symfony [info] {sfWebResponse} Send content (88428 o)
+Oct 10 14:47:42 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:47:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:47:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:47:42 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:47:42 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:47:42 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:47:42 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:47:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:47:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:47:42 symfony [info] {sfWebDebugLogger} Configuration 15.55 ms (9)
+Oct 10 14:47:42 symfony [info] {sfWebDebugLogger} Factories 43.70 ms (1)
+Oct 10 14:47:42 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.35 ms (1)
+Oct 10 14:47:42 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 22.96 ms (1)
+Oct 10 14:47:42 symfony [info] {sfWebResponse} Send content (88494 o)
+Oct 10 14:51:46 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:51:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:51:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:51:46 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:51:46 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:51:46 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:51:46 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:51:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:51:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:51:46 symfony [info] {sfWebDebugLogger} Configuration 15.97 ms (9)
+Oct 10 14:51:46 symfony [info] {sfWebDebugLogger} Factories 40.34 ms (1)
+Oct 10 14:51:46 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 14:51:46 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 23.18 ms (1)
+Oct 10 14:51:46 symfony [info] {sfWebResponse} Send content (88492 o)
+Oct 10 14:52:20 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:52:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:52:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:52:20 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:52:20 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:52:20 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:52:20 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:52:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:52:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:52:20 symfony [info] {sfWebDebugLogger} Configuration 15.47 ms (9)
+Oct 10 14:52:20 symfony [info] {sfWebDebugLogger} Factories 39.69 ms (1)
+Oct 10 14:52:20 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 14:52:20 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 23.11 ms (1)
+Oct 10 14:52:20 symfony [info] {sfWebResponse} Send content (88492 o)
+Oct 10 14:52:22 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:52:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:52:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:52:22 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:52:22 symfony [info] {sfFrontWebController} Redirect to "http://192.168.99.174:81/frontend_dev.php/holamundo"
+Oct 10 14:52:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Oct 10 14:52:22 symfony [info] {sfWebResponse} Send header "Location: http://192.168.99.174:81/frontend_dev.php/holamundo"
+Oct 10 14:52:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:52:22 symfony [info] {sfWebDebugLogger} Configuration 13.44 ms (8)
+Oct 10 14:52:22 symfony [info] {sfWebDebugLogger} Factories 43.06 ms (1)
+Oct 10 14:52:22 symfony [info] {sfWebDebugLogger} Action "inicio/index" 2.04 ms (1)
+Oct 10 14:52:22 symfony [info] {sfWebResponse} Send content (122 o)
+Oct 10 14:52:23 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'inicio',  'action' => 'holaMundo',)
+Oct 10 14:52:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:52:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:52:23 symfony [info] {inicioActions} Call "inicioActions->executeHolaMundo()"
+Oct 10 14:52:23 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/holaMundoSuccess.php"
+Oct 10 14:52:23 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:52:23 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:52:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:52:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:52:23 symfony [info] {sfWebDebugLogger} Configuration 15.09 ms (9)
+Oct 10 14:52:23 symfony [info] {sfWebDebugLogger} Factories 42.12 ms (1)
+Oct 10 14:52:23 symfony [info] {sfWebDebugLogger} Action "inicio/holaMundo" 0.33 ms (1)
+Oct 10 14:52:23 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/holaMundo" 19.63 ms (1)
+Oct 10 14:52:23 symfony [info] {sfWebResponse} Send content (45255 o)
+Oct 10 14:53:08 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 10 14:53:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:53:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:53:08 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 10 14:53:08 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Oct 10 14:53:08 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Oct 10 14:53:08 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Oct 10 14:53:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:53:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:53:08 symfony [info] {sfWebDebugLogger} Configuration 407.97 ms (9)
+Oct 10 14:53:08 symfony [info] {sfWebDebugLogger} Factories 208.04 ms (1)
+Oct 10 14:53:08 symfony [info] {sfWebDebugLogger} Action "default/index" 0.33 ms (1)
+Oct 10 14:53:08 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 42.33 ms (1)
+Oct 10 14:53:08 symfony [info] {sfWebResponse} Send content (45181 o)
+Oct 10 14:54:42 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:54:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:54:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:54:42 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:54:42 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:54:42 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:54:42 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:54:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:54:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:54:42 symfony [info] {sfWebDebugLogger} Configuration 115.17 ms (10)
+Oct 10 14:54:42 symfony [info] {sfWebDebugLogger} Factories 49.44 ms (1)
+Oct 10 14:54:42 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 14:54:42 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 40.74 ms (1)
+Oct 10 14:54:42 symfony [info] {sfWebResponse} Send content (88484 o)
+Oct 10 14:54:49 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 10 14:54:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:54:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:54:49 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 10 14:54:49 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Oct 10 14:54:49 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Oct 10 14:54:49 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Oct 10 14:54:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:54:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:54:49 symfony [info] {sfWebDebugLogger} Configuration 17.14 ms (9)
+Oct 10 14:54:49 symfony [info] {sfWebDebugLogger} Factories 47.60 ms (1)
+Oct 10 14:54:49 symfony [info] {sfWebDebugLogger} Action "default/index" 0.33 ms (1)
+Oct 10 14:54:49 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 18.75 ms (1)
+Oct 10 14:54:49 symfony [info] {sfWebResponse} Send content (45179 o)
+Oct 10 14:55:07 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 10 14:55:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:55:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:55:07 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 10 14:55:07 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Oct 10 14:55:07 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Oct 10 14:55:07 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Oct 10 14:55:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:55:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:55:07 symfony [info] {sfWebDebugLogger} Configuration 17.57 ms (9)
+Oct 10 14:55:07 symfony [info] {sfWebDebugLogger} Factories 46.83 ms (1)
+Oct 10 14:55:07 symfony [info] {sfWebDebugLogger} Action "default/index" 0.34 ms (1)
+Oct 10 14:55:07 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 24.72 ms (1)
+Oct 10 14:55:07 symfony [info] {sfWebResponse} Send content (45148 o)
+Oct 10 14:55:15 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:55:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:55:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:55:15 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:55:15 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 14:55:15 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:55:15 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:55:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:55:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:55:15 symfony [info] {sfWebDebugLogger} Configuration 15.69 ms (9)
+Oct 10 14:55:15 symfony [info] {sfWebDebugLogger} Factories 44.98 ms (1)
+Oct 10 14:55:15 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 14:55:15 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 21.51 ms (1)
+Oct 10 14:55:15 symfony [info] {sfWebResponse} Send content (88480 o)
+Oct 10 14:55:19 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 14:55:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:55:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:55:19 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 14:55:19 symfony [info] {sfFrontWebController} Redirect to "http://192.168.99.174:81/frontend_dev.php/holamundo"
+Oct 10 14:55:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Oct 10 14:55:19 symfony [info] {sfWebResponse} Send header "Location: http://192.168.99.174:81/frontend_dev.php/holamundo"
+Oct 10 14:55:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:55:19 symfony [info] {sfWebDebugLogger} Configuration 14.78 ms (8)
+Oct 10 14:55:19 symfony [info] {sfWebDebugLogger} Factories 53.61 ms (1)
+Oct 10 14:55:19 symfony [info] {sfWebDebugLogger} Action "inicio/index" 2.16 ms (1)
+Oct 10 14:55:19 symfony [info] {sfWebResponse} Send content (122 o)
+Oct 10 14:55:19 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'default',  'action' => 'index',)
+Oct 10 14:55:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:55:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:55:19 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Oct 10 14:55:19 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Oct 10 14:55:19 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Oct 10 14:55:19 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Oct 10 14:55:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:55:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:55:19 symfony [info] {sfWebDebugLogger} Configuration 16.57 ms (9)
+Oct 10 14:55:19 symfony [info] {sfWebDebugLogger} Factories 43.33 ms (1)
+Oct 10 14:55:19 symfony [info] {sfWebDebugLogger} Action "default/index" 0.33 ms (1)
+Oct 10 14:55:19 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 27.81 ms (1)
+Oct 10 14:55:19 symfony [info] {sfWebResponse} Send content (45257 o)
+Oct 10 14:56:57 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'inicio',  'action' => 'holaMundo',)
+Oct 10 14:56:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 14:56:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 14:56:57 symfony [info] {inicioActions} Call "inicioActions->executeHolaMundo()"
+Oct 10 14:56:57 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/holaMundoSuccess.php"
+Oct 10 14:56:57 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:56:57 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 14:56:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 14:56:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 14:56:57 symfony [info] {sfWebDebugLogger} Configuration 108.45 ms (10)
+Oct 10 14:56:57 symfony [info] {sfWebDebugLogger} Factories 133.32 ms (1)
+Oct 10 14:56:57 symfony [info] {sfWebDebugLogger} Action "inicio/holaMundo" 0.32 ms (1)
+Oct 10 14:56:57 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/holaMundo" 22.67 ms (1)
+Oct 10 14:56:57 symfony [info] {sfWebResponse} Send content (45181 o)
+Oct 10 15:01:37 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 15:01:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:01:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:01:37 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 15:01:37 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 15:01:37 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:01:37 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:01:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 15:01:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:01:37 symfony [info] {sfWebDebugLogger} Configuration 17.90 ms (9)
+Oct 10 15:01:37 symfony [info] {sfWebDebugLogger} Factories 44.50 ms (1)
+Oct 10 15:01:37 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.36 ms (1)
+Oct 10 15:01:37 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 21.14 ms (1)
+Oct 10 15:01:37 symfony [info] {sfWebResponse} Send content (88480 o)
+Oct 10 15:01:40 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 15:01:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:01:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:01:40 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 15:01:40 symfony [info] {sfFrontWebController} Redirect to "http://192.168.99.174:81/frontend_dev.php/holamundo"
+Oct 10 15:01:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Oct 10 15:01:40 symfony [info] {sfWebResponse} Send header "Location: http://192.168.99.174:81/frontend_dev.php/holamundo"
+Oct 10 15:01:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:01:40 symfony [info] {sfWebDebugLogger} Configuration 15.01 ms (8)
+Oct 10 15:01:40 symfony [info] {sfWebDebugLogger} Factories 43.66 ms (1)
+Oct 10 15:01:40 symfony [info] {sfWebDebugLogger} Action "inicio/index" 1.95 ms (1)
+Oct 10 15:01:40 symfony [info] {sfWebResponse} Send content (122 o)
+Oct 10 15:01:41 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'inicio',  'action' => 'holaMundo',)
+Oct 10 15:01:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:01:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:01:41 symfony [info] {inicioActions} Call "inicioActions->executeHolaMundo()"
+Oct 10 15:01:41 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/holaMundoSuccess.php"
+Oct 10 15:01:41 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:01:41 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:01:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 15:01:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:01:41 symfony [info] {sfWebDebugLogger} Configuration 14.15 ms (9)
+Oct 10 15:01:41 symfony [info] {sfWebDebugLogger} Factories 46.93 ms (1)
+Oct 10 15:01:41 symfony [info] {sfWebDebugLogger} Action "inicio/holaMundo" 0.33 ms (1)
+Oct 10 15:01:41 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/holaMundo" 23.19 ms (1)
+Oct 10 15:01:41 symfony [info] {sfWebResponse} Send content (45255 o)
+Oct 10 15:04:36 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'inicio',  'action' => 'holaMundo',)
+Oct 10 15:04:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:04:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:04:37 symfony [info] {inicioActions} Call "inicioActions->executeHolaMundo()"
+Oct 10 15:04:37 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/holaMundoSuccess.php"
+Oct 10 15:04:37 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:04:37 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:04:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 15:04:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:04:37 symfony [info] {sfWebDebugLogger} Configuration 16.72 ms (9)
+Oct 10 15:04:37 symfony [info] {sfWebDebugLogger} Factories 44.23 ms (1)
+Oct 10 15:04:37 symfony [info] {sfWebDebugLogger} Action "inicio/holaMundo" 0.33 ms (1)
+Oct 10 15:04:37 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/holaMundo" 24.32 ms (1)
+Oct 10 15:04:37 symfony [info] {sfWebResponse} Send content (45178 o)
+Oct 10 15:04:45 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 15:04:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:04:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:04:45 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 15:04:45 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 15:04:45 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:04:45 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:04:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 15:04:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:04:45 symfony [info] {sfWebDebugLogger} Configuration 18.46 ms (9)
+Oct 10 15:04:45 symfony [info] {sfWebDebugLogger} Factories 42.86 ms (1)
+Oct 10 15:04:45 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.34 ms (1)
+Oct 10 15:04:45 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 21.31 ms (1)
+Oct 10 15:04:45 symfony [info] {sfWebResponse} Send content (88480 o)
+Oct 10 15:09:01 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 15:09:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:09:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:09:01 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 15:09:01 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 15:09:01 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:09:01 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:09:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 15:09:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:09:01 symfony [info] {sfWebDebugLogger} Configuration 15.57 ms (9)
+Oct 10 15:09:01 symfony [info] {sfWebDebugLogger} Factories 40.69 ms (1)
+Oct 10 15:09:01 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 15:09:01 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 23.80 ms (1)
+Oct 10 15:09:02 symfony [info] {sfWebResponse} Send content (88557 o)
+Oct 10 15:09:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 15:09:02 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 15:09:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:09:02 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/main.css" (/).
+Oct 10 15:09:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:09:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:09:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 15:09:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:09:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:09:02 symfony [info] {sfWebDebugLogger} Configuration 17.97 ms (5)
+Oct 10 15:09:02 symfony [info] {sfWebDebugLogger} Factories 55.87 ms (1)
+Oct 10 15:09:12 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 15:09:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:09:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:09:12 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 15:09:12 symfony [info] {sfFrontWebController} Redirect to "http://192.168.99.174:81/frontend_dev.php/holamundo"
+Oct 10 15:09:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Oct 10 15:09:12 symfony [info] {sfWebResponse} Send header "Location: http://192.168.99.174:81/frontend_dev.php/holamundo"
+Oct 10 15:09:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:09:12 symfony [info] {sfWebDebugLogger} Configuration 14.53 ms (8)
+Oct 10 15:09:12 symfony [info] {sfWebDebugLogger} Factories 42.71 ms (1)
+Oct 10 15:09:12 symfony [info] {sfWebDebugLogger} Action "inicio/index" 1.96 ms (1)
+Oct 10 15:09:12 symfony [info] {sfWebResponse} Send content (122 o)
+Oct 10 15:09:12 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'inicio',  'action' => 'holaMundo',)
+Oct 10 15:09:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:09:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:09:12 symfony [info] {inicioActions} Call "inicioActions->executeHolaMundo()"
+Oct 10 15:09:12 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/holaMundoSuccess.php"
+Oct 10 15:09:12 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:09:12 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:09:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 15:09:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:09:12 symfony [info] {sfWebDebugLogger} Configuration 15.02 ms (9)
+Oct 10 15:09:12 symfony [info] {sfWebDebugLogger} Factories 38.52 ms (1)
+Oct 10 15:09:12 symfony [info] {sfWebDebugLogger} Action "inicio/holaMundo" 0.33 ms (1)
+Oct 10 15:09:12 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/holaMundo" 25.33 ms (1)
+Oct 10 15:09:12 symfony [info] {sfWebResponse} Send content (45255 o)
+Oct 10 15:11:29 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 15:11:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:11:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:11:29 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 15:11:29 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 15:11:29 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:11:29 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:11:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 15:11:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:11:29 symfony [info] {sfWebDebugLogger} Configuration 15.52 ms (9)
+Oct 10 15:11:29 symfony [info] {sfWebDebugLogger} Factories 38.84 ms (1)
+Oct 10 15:11:29 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.33 ms (1)
+Oct 10 15:11:29 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 22.67 ms (1)
+Oct 10 15:11:29 symfony [info] {sfWebResponse} Send content (88491 o)
+Oct 10 15:11:29 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 15:11:29 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 15:11:29 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:11:29 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/main.css" (/).
+Oct 10 15:11:29 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:11:29 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:11:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 15:11:29 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:11:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:11:29 symfony [info] {sfWebDebugLogger} Configuration 33.39 ms (5)
+Oct 10 15:11:29 symfony [info] {sfWebDebugLogger} Factories 57.28 ms (1)
+Oct 10 15:12:01 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 15:12:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:12:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:12:01 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 15:12:01 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/indexSuccess.php"
+Oct 10 15:12:01 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:12:01 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:12:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 15:12:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:12:01 symfony [info] {sfWebDebugLogger} Configuration 110.23 ms (10)
+Oct 10 15:12:01 symfony [info] {sfWebDebugLogger} Factories 133.35 ms (1)
+Oct 10 15:12:01 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.35 ms (1)
+Oct 10 15:12:01 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 24.38 ms (1)
+Oct 10 15:12:01 symfony [info] {sfWebResponse} Send content (88561 o)
+Oct 10 15:12:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 15:12:02 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 15:12:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:12:02 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/main.css" (/).
+Oct 10 15:12:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:12:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:12:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 15:12:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:12:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:12:02 symfony [info] {sfWebDebugLogger} Configuration 40.06 ms (5)
+Oct 10 15:12:02 symfony [info] {sfWebDebugLogger} Factories 101.52 ms (1)
+Oct 10 15:12:05 symfony [info] {sfPatternRouting} Match route "inicio" (/inicio) for /inicio with parameters array (  'module' => 'inicio',  'action' => 'index',)
+Oct 10 15:12:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:12:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:12:05 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+Oct 10 15:12:05 symfony [info] {sfFrontWebController} Redirect to "http://192.168.99.174:81/frontend_dev.php/holamundo"
+Oct 10 15:12:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Oct 10 15:12:05 symfony [info] {sfWebResponse} Send header "Location: http://192.168.99.174:81/frontend_dev.php/holamundo"
+Oct 10 15:12:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:12:05 symfony [info] {sfWebDebugLogger} Configuration 14.23 ms (8)
+Oct 10 15:12:05 symfony [info] {sfWebDebugLogger} Factories 46.70 ms (1)
+Oct 10 15:12:05 symfony [info] {sfWebDebugLogger} Action "inicio/index" 2.06 ms (1)
+Oct 10 15:12:05 symfony [info] {sfWebResponse} Send content (122 o)
+Oct 10 15:12:05 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'default',  'action' => 'holaMundo',)
+Oct 10 15:12:05 symfony [info] {sfFrontWebController} Action "default/holaMundo" does not exist
+Oct 10 15:12:05 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): function '' not found or invalid function name)
+Oct 10 15:12:05 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 103 (ob_start(): failed to create buffer)
+Oct 10 15:12:05 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 105 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:12:05 symfony [err] {sfError404Exception} Action "default/holaMundo" does not exist.
+Oct 10 15:12:05 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php on line 159 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:12:05 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:12:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Oct 10 15:12:05 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\wamp\www\jobeet\lib\vendor\symfony\lib\exception\sfException.class.php:103))
+Oct 10 15:12:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:12:05 symfony [info] {sfWebDebugLogger} Configuration 8.07 ms (5)
+Oct 10 15:12:05 symfony [info] {sfWebDebugLogger} Factories 42.48 ms (1)
+Oct 10 15:12:26 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'inicio',  'action' => 'holaMundo',)
+Oct 10 15:12:26 symfony [info] {sfPatternRouting} Match route "holamundo" (/holamundo) for /holamundo with parameters array (  'module' => 'inicio',  'action' => 'holaMundo',)
+Oct 10 15:12:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:12:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:12:28 symfony [info] {inicioActions} Call "inicioActions->executeHolaMundo()"
+Oct 10 15:12:29 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/holaMundoSuccess.php"
+Oct 10 15:12:29 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:12:29 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:12:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 15:12:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:12:29 symfony [info] {sfWebDebugLogger} Configuration 1927.47 ms (10)
+Oct 10 15:12:29 symfony [info] {sfWebDebugLogger} Factories 4385.08 ms (1)
+Oct 10 15:12:29 symfony [info] {sfWebDebugLogger} Action "inicio/holaMundo" 0.38 ms (1)
+Oct 10 15:12:29 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/holaMundo" 888.42 ms (1)
+Oct 10 15:12:30 symfony [info] {sfWebResponse} Send content (45263 o)
+Oct 10 15:12:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 10 15:12:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 10 15:12:30 symfony [info] {inicioActions} Call "inicioActions->executeHolaMundo()"
+Oct 10 15:12:30 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/inicio/templates/holaMundoSuccess.php"
+Oct 10 15:12:30 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:12:30 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Oct 10 15:12:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 10 15:12:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 10 15:12:30 symfony [info] {sfWebDebugLogger} Configuration 1924.70 ms (10)
+Oct 10 15:12:30 symfony [info] {sfWebDebugLogger} Factories 5911.32 ms (1)
+Oct 10 15:12:30 symfony [info] {sfWebDebugLogger} Action "inicio/holaMundo" 0.39 ms (1)
+Oct 10 15:12:30 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/holaMundo" 24.32 ms (1)
+Oct 10 15:12:30 symfony [info] {sfWebResponse} Send content (45184 o)

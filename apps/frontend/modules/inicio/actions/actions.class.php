@@ -17,6 +17,25 @@ class inicioActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-   
+
+      if($request->getParameter('Enviar')) {
+          $this->username = $request->getParameter('nombre');
+          $this->lastname = $request->getParameter('apellido');
+
+          $this->redirect('holamundo');
+
+         // die("Se ha metido el nombre:".$this->username." y el apellido ".$this->lastname);
+      }else{
+          echo "Introduzca unos valores!!";
+      }
+
+
+
+      //echo "Se ha metido el nombre:".$username." y el apellido ".$lastname;
+
+  }
+
+  public function executeHolaMundo(sfWebRequest $request){
+
   }
 }

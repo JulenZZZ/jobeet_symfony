@@ -14,6 +14,10 @@ holamundo:
   url:   /holamundo
   param: { module: inicio, action: holaMundo }
 
+show:
+  url:   /show
+  param: { module: inicio, action: show }
+
 # generic rules
 # please, remove them by adding more specific rules
 default_index:

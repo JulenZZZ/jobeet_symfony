@@ -22,20 +22,32 @@ class inicioActions extends sfActions
           $this->username = $request->getParameter('nombre');
           $this->lastname = $request->getParameter('apellido');
 
-          $this->redirect('holamundo');
-
-         // die("Se ha metido el nombre:".$this->username." y el apellido ".$this->lastname);
-      }else{
-          echo "Introduzca unos valores!!";
+          $this->redirect('show');
       }
 
+        //echo "Se ha metido el nombre:".$this->username." y el apellido ".$this->lastname;
 
 
+
+/*
       //echo "Se ha metido el nombre:".$username." y el apellido ".$lastname;
+
+      $this->jobeet_jobs = Doctrine::getTable('JobeetJob')
+          ->createQuery('a')
+          ->execute();
+
+      */
+  }
+
+  public function executeHolaMundo(sfWebRequest $request)
+  {
 
   }
 
-  public function executeHolaMundo(sfWebRequest $request){
+  public function executeShow(sfWebRequest $request)
+  {
+
+
 
   }
 }

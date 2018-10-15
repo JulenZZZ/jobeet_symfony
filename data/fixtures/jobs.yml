@@ -22,8 +22,8 @@ JobeetJob:
     expires_at:   '2008-10-10'
  
   job_extreme_sensio:
-      JobeetCategory:  design
-    type:         part-time
+    JobeetCategory:  design
+    type:         full-time
     company:      Extreme Sensio
     logo:         extreme-sensio.gif
     url:          http://www.extreme-sensio.com/

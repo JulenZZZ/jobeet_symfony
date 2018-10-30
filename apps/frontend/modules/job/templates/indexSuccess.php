@@ -47,4 +47,7 @@
   </tbody>
 </table>
 
-  <a href="<?php echo url_for('job/new') ?>">New</a>
+  <a href="<?php echo url_for('job/new') ?>">Nuevo</a>
+
+
+<a href="<?php echo url_for('job/category') ?>">Categorias</a>

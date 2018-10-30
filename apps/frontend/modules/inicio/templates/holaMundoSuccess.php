@@ -1,1 +1,0 @@
-<button value="Mostrar nueva ventana" onclick="datos()">Mostrar nueva ventana</button>

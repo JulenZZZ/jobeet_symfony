@@ -9,14 +9,14 @@
         <?php endif; ?>
     </title>
 
-    <?php include_javascripts() ?>
+    <?php include_javascripts('main.js') ?>
     <?php include_stylesheets() ?>
 </head>
 <body>
 <div id="container">
     <div id="header">
         <div class="content">
-            <h1><a href="<?php echo url_for('job/index') ?>">
+            <h1><a href="<?php echo url_for('@job') ?>">
                     <img src="https://symfony.com/logos/symfony_black_02.png" alt="Mountain">  </a>
             </h1>
 
@@ -24,7 +24,12 @@
                 <div class="post">
                     <h2>Ask for people</h2>
                     <div>
-                        <a href="<?php echo url_for('job/index') ?>">Post a Job</a>
+                     <!--   <a href="<//?php echo url_for('@job_new') ?>">Post a Job</a>-->
+                        <h1>
+                            <a href="<?php echo url_for('@job') ?>">
+                                <img src="/legacy/images/jobeet.gif" alt="Jobeet Job Board" />
+                            </a>
+                        </h1>
                     </div>
                 </div>
 

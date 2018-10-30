@@ -89,15 +89,17 @@ class sfDoctrineRoute extends sfObjectRoute
       {
         $q = $this->query;
       }
-      if (isset($this->options['method_for_query']))
+       /*if (isset($this->options['method_for_query']))
       {
         $method = $this->options['method_for_query'];
         $results = $tableModel->$method($q);
       }
+
       else
       {
         $results = $q->execute();
       }
+       */
     }
     else
     {

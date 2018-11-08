@@ -31,6 +31,10 @@ contacto:
   url:   /contacto
   param: { module: job, action: contacto }
 
+email:
+  url:   /email
+  param: { module: job, action: email }
+
 
 job_show_user:
   url:     /job/:company_slug/:location_slug/:id/:position_slug

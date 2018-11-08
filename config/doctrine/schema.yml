@@ -52,3 +52,40 @@ JobeetCategoryAffiliate:
     JobeetCategory:  { onDelete: CASCADE, local: category_id, foreign: id }
     JobeetAffiliate: { onDelete: CASCADE, local: affiliate_id, foreign: id }
 
+propel:
+  articulo:
+    id:             ~
+    titulo:         { type: varchar(255), required: true }
+    slug:           { type: varchar(255), required: true, index: unique }
+    contenido:      longvarchar
+    esta_publicado: { type: boolean, required: true }
+    autor_id:       { type: integer, required: true, foreignTable: autor, foreignReference: id, OnDelete: cascade }
+    created_at:     ~
+
+  autor:
+    id:         ~
+    nombre:     varchar(20)
+    apellidos:  varchar(20)
+    email:      { type: varchar(255), required: true, index: unique }
+    activo:     boolean
+
+  blog_categoria:
+    id:                ~
+    nombre:            varchar(255)
+  blog_autor:
+    id:                ~
+    nombre:            varchar(255)
+  blog_articulo:
+    id:                ~
+    titulo:            varchar(255)
+    contenido:         longvarchar
+    blog_autor_id:     ~
+    blog_categoria_id: ~
+    publicado:         boolean
+    created_at:        ~
+  blog_comentario:
+    id:                ~
+    blog_articulo_id:  ~
+    autor:             varchar(255)
+    contenido:         longvarchar
+    created_at:        ~

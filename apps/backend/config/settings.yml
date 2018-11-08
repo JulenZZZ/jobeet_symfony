@@ -3,9 +3,8 @@
 
 prod:
   .settings:
-    no_script_name:         true
+    no_script_name:         false
     logging_enabled:        false
-    error_reporting:        <?php echo (E_PARSE | E_COMPILE_ERROR | E_ERROR | E_CORE_ERROR | E_USER_ERROR)."\n" ?>
 
 dev:
   .settings:
@@ -26,7 +25,7 @@ test:
 all:
   .settings:
     # Form security secret (CSRF protection)
-    csrf_secret:            04b44fd667f1bba6d6e03762eea5696ce6d8a4a2
+    csrf_secret:            21183298785fbc4bb63f3d9ba80b4f260425a77f
 
     # Output escaping settings
     escaping_strategy:      true
@@ -34,9 +33,3 @@ all:
 
     # Enable the database manager
     use_database:           true
-
-    #Activamos la traduccion de los textos de la interfaz
-    i18n: true
-
-    #Cultura por defecto
-    default_culture:     fr_FR

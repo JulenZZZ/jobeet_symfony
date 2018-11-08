@@ -19,7 +19,9 @@ test:
     param:
       send_http_headers: false
 
-
+  mailer:
+    param:
+      delivery_strategy: none
 
 dev:
   mailer:
@@ -38,18 +40,3 @@ all:
     param:
       cache_key_use_vary_headers: true
       cache_key_use_host_name:    true
-
-  mailer:
-    class: sfMailer
-    param:
-    # logging:           %SF_LOGGING_ENABLED%
-    # charset:           %SF_CHARSET%
-      delivery_strategy: realtime
-      transport:
-        class: Swift_SmtpTransport
-        param:
-          host:       smtp.gmail.com
-          port:       465
-          encryption: ssl
-          username:   julenz485@gmail.com
-          password:   dumplings1

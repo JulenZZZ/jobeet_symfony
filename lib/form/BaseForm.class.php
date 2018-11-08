@@ -10,4 +10,9 @@
  */
 class BaseForm extends sfFormSymfony
 {
+
+    public function __toString()
+    {
+        return $this->getNombre();
+    }
 }

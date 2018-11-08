@@ -11,6 +11,7 @@
 
     <?php include_javascripts('main.js') ?>
     <?php include_stylesheets() ?>
+    <?php use_helper('I18N') ?>
 </head>
 <body>
 <div id="container">
@@ -40,7 +41,10 @@
                                id="search_keywords" />
                         <input type="submit" value="search" />
                         <div class="help">
-                            Enter some keywords (city, country, position, ...)
+                            <?php echo __('Enter some keywords (city, country, position, ...)') ?>
+                            <?php echo __('Welcome to our website.') ?>
+                            <?php echo __("Today's date is ") ?>
+                            
                         </div>
                     </form>
                 </div>
@@ -71,9 +75,16 @@
           <span class="symfony" style="color: #6666ff">
 
             powered by Symfony
-
-            </a>
           </span>
+            <span>
+
+           <a  href="<?php echo url_for('@email') ?>">
+
+               Pagina de emails
+
+           </a>
+          </span>
+
             <ul>
                 <li><a href="">About Jobeet</a></li>
                 <li class="feed"><a href="">Full feed</a></li>

@@ -57,3 +57,144 @@ Nov 07 17:56:02 symfony [info] {sfWebDebugLogger} Action "job/show" 1217.80 ms (
 Nov 07 17:56:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
 Nov 07 17:56:02 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 39.62 ms (1)
 Nov 07 17:56:02 symfony [info] {sfWebResponse} Send content (76731 o)
+Nov 12 14:27:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'show',)
+Nov 12 14:27:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 14:27:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 14:27:23 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Nov 12 14:27:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 12 14:27:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT j.id AS j__id, j.category_id AS j__category_id, j.type AS j__type, j.company AS j__company, j.logo AS j__logo, j.url AS j__url, j.position AS j__position, j.location AS j__location, j.description AS j__description, j.how_to_apply AS j__how_to_apply, j.token AS j__token, j.is_public AS j__is_public, j.is_activated AS j__is_activated, j.email AS j__email, j.expires_at AS j__expires_at, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_job j - ()
+Nov 12 14:27:30 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/job/templates/showSuccess.php"
+Nov 12 14:27:31 symfony [info] {main} Set slot "title"
+Nov 12 14:27:31 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 14:27:31 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 14:27:31 symfony [info] {main} Get slot "title"
+Nov 12 14:27:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 14:27:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 14:27:31 symfony [info] {sfWebDebugLogger} Configuration 4122.25 ms (11)
+Nov 12 14:27:31 symfony [info] {sfWebDebugLogger} Factories 3200.36 ms (1)
+Nov 12 14:27:31 symfony [info] {sfWebDebugLogger} Action "job/show" 6934.52 ms (1)
+Nov 12 14:27:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Nov 12 14:27:31 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1471.25 ms (1)
+Nov 12 14:27:32 symfony [info] {sfWebResponse} Send content (76424 o)
+Nov 12 14:27:40 symfony [info] {sfPatternRouting} Match route "contacto" (/contacto) for /contacto with parameters array (  'module' => 'job',  'action' => 'contacto',)
+Nov 12 14:27:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 14:27:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 14:27:41 symfony [info] {jobActions} Call "jobActions->executeContacto()"
+Nov 12 14:27:43 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/job/templates/contactoSuccess.php"
+Nov 12 14:27:43 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 14:27:43 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 14:27:44 symfony [info] {main} Get slot "title"
+Nov 12 14:27:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 14:27:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 14:27:44 symfony [info] {sfWebDebugLogger} Configuration 163.03 ms (11)
+Nov 12 14:27:44 symfony [info] {sfWebDebugLogger} Factories 68.95 ms (1)
+Nov 12 14:27:44 symfony [info] {sfWebDebugLogger} Action "job/contacto" 2786.56 ms (1)
+Nov 12 14:27:44 symfony [info] {sfWebDebugLogger} View "Success" for "job/contacto" 300.64 ms (1)
+Nov 12 14:27:44 symfony [info] {sfWebResponse} Send content (51010 o)
+Nov 12 14:28:03 symfony [info] {sfPatternRouting} Match route "job_edit" (/job/:id/edit.:sf_format) for /job/3/edit with parameters array (  'module' => 'job',  'action' => 'edit',  'sf_format' => 'html',  'id' => '3',)
+Nov 12 14:28:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 14:28:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 14:28:03 symfony [info] {jobActions} Call "jobActions->executeEdit()"
+Nov 12 14:28:03 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\plugins\sfDoctrinePlugin\lib\routing\sfDoctrineRoute.class.php on line 113 (Undefined variable: results)
+Nov 12 14:28:03 symfony [notice] {sfWebDebugLogger}  Notice at C:\wamp\www\jobeet\lib\vendor\symfony\lib\plugins\sfDoctrinePlugin\lib\routing\sfDoctrineRoute.class.php on line 120 (Undefined variable: results)
+Nov 12 14:28:03 symfony [err] {sfError404Exception} Unable to find the JobeetJob object with the following parameters "array (  'id' => '3',  'sf_format' => 'html',)").
+Nov 12 14:28:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 12 14:28:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 14:28:04 symfony [info] {sfWebDebugLogger} Configuration 154.04 ms (10)
+Nov 12 14:28:04 symfony [info] {sfWebDebugLogger} Factories 66.22 ms (1)
+Nov 12 14:28:04 symfony [info] {sfWebDebugLogger} Action "job/edit" 753.23 ms (1)
+Nov 12 14:28:19 symfony [info] {sfPatternRouting} Match route "contacto" (/contacto) for /contacto with parameters array (  'module' => 'job',  'action' => 'contacto',)
+Nov 12 14:28:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 14:28:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 14:28:19 symfony [info] {jobActions} Call "jobActions->executeContacto()"
+Nov 12 14:28:19 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/job/templates/contactoSuccess.php"
+Nov 12 14:28:19 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 14:28:19 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 14:28:19 symfony [info] {main} Get slot "title"
+Nov 12 14:28:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 14:28:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 14:28:19 symfony [info] {sfWebDebugLogger} Configuration 164.33 ms (11)
+Nov 12 14:28:19 symfony [info] {sfWebDebugLogger} Factories 73.90 ms (1)
+Nov 12 14:28:19 symfony [info] {sfWebDebugLogger} Action "job/contacto" 14.41 ms (1)
+Nov 12 14:28:19 symfony [info] {sfWebDebugLogger} View "Success" for "job/contacto" 181.04 ms (1)
+Nov 12 14:28:19 symfony [info] {sfWebResponse} Send content (51009 o)
+Nov 12 14:28:22 symfony [info] {sfPatternRouting} Match route "contacto" (/contacto) for /contacto with parameters array (  'module' => 'job',  'action' => 'contacto',)
+Nov 12 14:28:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 14:28:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 14:28:22 symfony [info] {jobActions} Call "jobActions->executeContacto()"
+Nov 12 14:28:22 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/job/templates/contactoSuccess.php"
+Nov 12 14:28:23 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 14:28:23 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 14:28:23 symfony [info] {main} Get slot "title"
+Nov 12 14:28:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 14:28:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 14:28:23 symfony [info] {sfWebDebugLogger} Configuration 160.11 ms (11)
+Nov 12 14:28:23 symfony [info] {sfWebDebugLogger} Factories 73.31 ms (1)
+Nov 12 14:28:23 symfony [info] {sfWebDebugLogger} Action "job/contacto" 14.50 ms (1)
+Nov 12 14:28:23 symfony [info] {sfWebDebugLogger} View "Success" for "job/contacto" 183.66 ms (1)
+Nov 12 14:28:23 symfony [info] {sfWebResponse} Send content (51704 o)
+Nov 12 14:29:03 symfony [info] {sfPatternRouting} Match route "contacto" (/contacto) for /contacto with parameters array (  'module' => 'job',  'action' => 'contacto',)
+Nov 12 14:29:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 14:29:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 14:29:03 symfony [info] {jobActions} Call "jobActions->executeContacto()"
+Nov 12 14:29:03 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/job/templates/contactoSuccess.php"
+Nov 12 14:29:03 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 14:29:03 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 14:29:03 symfony [info] {main} Get slot "title"
+Nov 12 14:29:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 14:29:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 14:29:03 symfony [info] {sfWebDebugLogger} Configuration 147.81 ms (11)
+Nov 12 14:29:03 symfony [info] {sfWebDebugLogger} Factories 68.27 ms (1)
+Nov 12 14:29:03 symfony [info] {sfWebDebugLogger} Action "job/contacto" 14.46 ms (1)
+Nov 12 14:29:03 symfony [info] {sfWebDebugLogger} View "Success" for "job/contacto" 166.38 ms (1)
+Nov 12 14:29:03 symfony [info] {sfWebResponse} Send content (51700 o)
+Nov 12 14:33:51 symfony [info] {sfPatternRouting} Match route "email" (/email) for /email with parameters array (  'module' => 'job',  'action' => 'email',)
+Nov 12 14:33:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 14:33:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 14:33:51 symfony [info] {jobActions} Call "jobActions->executeEmail()"
+Nov 12 14:33:56 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\vendor\swiftmailer\classes\Swift\Transport\StreamBuffer.php on line 233 (fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP?))
+Nov 12 14:33:57 symfony [err] {Swift_TransportException} Connection could not be established with host smtp.gmail.com [Unable to find the socket transport "ssl" - did you forget to enable it when you configured PHP? #24]
+Nov 12 14:33:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 12 14:33:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 14:33:57 symfony [info] {sfWebDebugLogger} Configuration 151.49 ms (10)
+Nov 12 14:33:57 symfony [info] {sfWebDebugLogger} Factories 74.12 ms (1)
+Nov 12 14:33:57 symfony [info] {sfWebDebugLogger} Action "job/email" 5112.50 ms (1)
+Nov 12 15:23:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'show',)
+Nov 12 15:23:04 symfony [info] {myUser} Automatic user logout due to timeout
+Nov 12 15:23:04 symfony [info] {myUser} User is not authenticated
+Nov 12 15:23:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 15:23:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 15:23:05 symfony [info] {jobActions} Call "jobActions->executeShow()"
+Nov 12 15:23:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Nov 12 15:23:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT j.id AS j__id, j.category_id AS j__category_id, j.type AS j__type, j.company AS j__company, j.logo AS j__logo, j.url AS j__url, j.position AS j__position, j.location AS j__location, j.description AS j__description, j.how_to_apply AS j__how_to_apply, j.token AS j__token, j.is_public AS j__is_public, j.is_activated AS j__is_activated, j.email AS j__email, j.expires_at AS j__expires_at, j.created_at AS j__created_at, j.updated_at AS j__updated_at FROM jobeet_job j - ()
+Nov 12 15:23:08 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\modules/job/templates/showSuccess.php"
+Nov 12 15:23:08 symfony [info] {main} Set slot "title"
+Nov 12 15:23:08 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 15:23:09 symfony [info] {sfPHPView} Render "C:\wamp\www\jobeet\apps\frontend\templates/layout.php"
+Nov 12 15:23:09 symfony [info] {main} Get slot "title"
+Nov 12 15:23:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Nov 12 15:23:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 15:23:09 symfony [info] {sfWebDebugLogger} Configuration 745.60 ms (10)
+Nov 12 15:23:09 symfony [info] {sfWebDebugLogger} Factories 536.64 ms (1)
+Nov 12 15:23:09 symfony [info] {sfWebDebugLogger} Action "job/show" 2306.52 ms (1)
+Nov 12 15:23:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Nov 12 15:23:09 symfony [info] {sfWebDebugLogger} View "Success" for "job/show" 1062.92 ms (1)
+Nov 12 15:23:09 symfony [info] {sfWebResponse} Send content (80311 o)
+Nov 12 16:10:55 symfony [info] {myUser} Automatic user logout due to timeout
+Nov 12 16:10:55 symfony [info] {myUser} User is not authenticated
+Nov 12 16:10:56 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/category" (/).
+Nov 12 16:10:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Nov 12 16:10:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 16:10:56 symfony [info] {sfWebDebugLogger} Configuration 12.48 ms (5)
+Nov 12 16:10:56 symfony [info] {sfWebDebugLogger} Factories 67.65 ms (1)
+Nov 12 16:13:07 symfony [info] {sfPatternRouting} Match route "email" (/email) for /email with parameters array (  'module' => 'job',  'action' => 'email',)
+Nov 12 16:13:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Nov 12 16:13:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Nov 12 16:13:07 symfony [info] {jobActions} Call "jobActions->executeEmail()"
+Nov 12 16:13:08 symfony [warning] {sfWebDebugLogger}  Warning at C:\wamp\www\jobeet\lib\vendor\symfony\lib\vendor\swiftmailer\classes\Swift\Transport\StreamBuffer.php on line 233 (fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP?))
+Nov 12 16:13:08 symfony [err] {Swift_TransportException} Connection could not be established with host smtp.gmail.com [Unable to find the socket transport "ssl" - did you forget to enable it when you configured PHP? #24]
+Nov 12 16:13:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Nov 12 16:13:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Nov 12 16:13:09 symfony [info] {sfWebDebugLogger} Configuration 150.58 ms (10)
+Nov 12 16:13:09 symfony [info] {sfWebDebugLogger} Factories 98.95 ms (1)
+Nov 12 16:13:09 symfony [info] {sfWebDebugLogger} Action "job/email" 1413.00 ms (1)

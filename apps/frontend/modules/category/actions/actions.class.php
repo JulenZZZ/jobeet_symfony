@@ -22,6 +22,9 @@ class categoryActions extends sfActions
 
     public function executeShow(sfWebRequest $request)
     {
-        $this->category = $this->getRoute()->getObject();
+        //$this->category = $this->getRoute()->getObject();
+        $this->category = Doctrine_Core::getTable('Category')->createQuery('c')
+            //->where('id = ?', $id)
+            ->execute();
     }
 }
